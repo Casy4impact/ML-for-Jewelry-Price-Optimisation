@@ -21,24 +21,32 @@ sci-kit learn: It's Python library which is extensively use for machine learning
 # Project Implementation vis CRISP-DM
 
 ## 1. Business understanding
-Jewelry Price Optimization with ML: Pricing Data to Refine Pricing Strategies
-Dive into the dynamic world of the jewelry market through this project, where I utilized machine learning to predict appropriate jewelry prices. Throughout the project, I employed a range of Python libraries, including NumPy, Pandas, Matplotlib, Seaborn, RAPIDS, and Sci-kit Learn, to develop predictive models. This hands-on experience not only enhanced my analytical skills but also provided practical insights into the factors influencing jewelry pricing in a competitive market.
-Business Overview/Problem
-Business Problem I
+### Jewelry Price Optimization with ML: 
+- Pricing Data to Refine Pricing Strategies
+Dive into the dynamic world of the jewelry market through this project, where I utilized machine learning to predict appropriate jewelry prices.
+Throughout the project, I employed a range of Python libraries, including
+- NumPy,
+- Pandas,
+- Matplotlib,
+- Seaborn, RAPIDS, and
+- Sci-kit Learn, to develop predictive models.
+This hands-on experience not only enhanced my analytical skills but also provided practical insights into the factors influencing jewelry pricing in a competitive market.
+## Business Overview/Problem
+- Business Problem I
 Having recently expanded operations, Gemineye Emporium has grown from a relatively small jewelry provider to a large-scale jewelry designing and trading company. Although this is good news, this transition is a very fast one, and while it has gone well all things considered, there were some edge cases the company board did not see coming. One glaring instance is the product prices. This is actually the major pain point for the company at the moment.
 
-Business Problem II
+- Business Problem II
 In the days where Gemineye was a small-scale holding, the price of any jewelry piece was very easy to determine or, in rare cases of confusion, ascertain. Now that operations have expanded exponentially, Gemineye finds itself not only importing pieces, but also manufacturing them in-house. With logistics concerns thrown into the mix, this becomes a more complicated system, and all these factors have two effects:
 •	A. Complicate the price determination process, and
 •	B. Inflate prices.
  
-Business Problem III
+- Business Problem III
 Gemineye is in need of a means by which they can:
 •	A. Make the most profit from their investment, and
 •	B. Remain competitive by keeping their prices as affordable as possible.
  
 In essence, they are in need of a way to maximize price to fill their pockets while minimizing it to suit the customers’ pockets. This is a tricky kettle of fish to boil!
- Business Problem IV
+- Business Problem IV
 To be more specific, the specific challenges of interest are:
 •	A. Market Dynamics: The jewelry market is influenced by trends, fashion, and changing consumer preferences, making pricing decisions complex.
 •	B. Competitive Pricing: Setting prices that are competitive with other jewelry retailers while offering unique and high-quality pieces.
