@@ -105,19 +105,19 @@ Report on these properties and how they might affect the final solution
 R2 Score:
 The R2 score measures the proportion of the variance in the dependent variable that is predictable from the independent variables. The closer the R2 score is to 1, the better the model explains the variability of the response data.
 
-a. The CatBoost model has the highest R2 score for both the training (0.3129) and test data (0.4115), indicating it explains the variability of the response data better than the other models.
-a. The Linear Regression and AdaBoost models have relatively low R2 scores, indicating they do not explain the variance in the data well.
-c. The ExtraTrees model performs moderately well with R2 scores of 0.2147 (train) and 0.2632 (test).
+- a. The CatBoost model has the highest R2 score for both the training (0.3129) and test data (0.4115), indicating it explains the variability of the response data better than the other models.
+- a. The Linear Regression and AdaBoost models have relatively low R2 scores, indicating they do not explain the variance in the data well.
+- c. The ExtraTrees model performs moderately well with R2 scores of 0.2147 (train) and 0.2632 (test).
 ## RMSE:
 The RMSE measures the average magnitude of the error. It’s the square root of the average squared differences between predicted and actual values. Lower RMSE values indicate better model performance.
 
-a. The CatBoost model has the lowest RMSE for the test data (282.85), indicating it has the least average prediction error.
-b. The ExtraTrees model has a moderate RMSE (316.49), followed by Linear Regression and AdaBoost with higher RMSE values.
+- a. The CatBoost model has the lowest RMSE for the test data (282.85), indicating it has the least average prediction error.
+- b. The ExtraTrees model has a moderate RMSE (316.49), followed by Linear Regression and AdaBoost with higher RMSE values.
 2. Generalization:
 The generalization error is the difference in performance between the training and test datasets. Smaller differences indicate better generalization to new, unseen data.
-a. The CatBoost model shows a negative generalization error in R2 (-0.0986) and a higher RMSE generalization error (88.01), indicating some overfitting but generally performing well.
-b. ExtraTrees also shows moderate generalization with slightly less overfitting compared to CatBoost.
-c. Linear Regression and AdaBoost have relatively higher generalization errors, indicating these models might not generalize well to unseen data.
+- a. The CatBoost model shows a negative generalization error in R2 (-0.0986) and a higher RMSE generalization error (88.01), indicating some overfitting but generally performing well.
+- b. ExtraTrees also shows moderate generalization with slightly less overfitting compared to CatBoost.
+- c. Linear Regression and AdaBoost have relatively higher generalization errors, indicating these models might not generalize well to unseen data.
 
 ## Professional Recommendations
 ### Model Selection:
