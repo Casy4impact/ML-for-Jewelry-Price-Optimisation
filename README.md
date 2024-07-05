@@ -37,48 +37,48 @@ Having recently expanded operations, Gemineye Emporium has grown from a relative
 
 - Business Problem II
 In the days where Gemineye was a small-scale holding, the price of any jewelry piece was very easy to determine or, in rare cases of confusion, ascertain. Now that operations have expanded exponentially, Gemineye finds itself not only importing pieces, but also manufacturing them in-house. With logistics concerns thrown into the mix, this becomes a more complicated system, and all these factors have two effects:
-•	A. Complicate the price determination process, and
-•	B. Inflate prices.
+- A. Complicate the price determination process, and
+- B. Inflate prices.
  
 - Business Problem III
-Gemineye is in need of a means by which they can:
+- Gemineye is in need of a means by which they can:
 •	A. Make the most profit from their investment, and
 •	B. Remain competitive by keeping their prices as affordable as possible.
  
 In essence, they are in need of a way to maximize price to fill their pockets while minimizing it to suit the customers’ pockets. This is a tricky kettle of fish to boil!
 - Business Problem IV
-To be more specific, the specific challenges of interest are:
+- To be more specific, the specific challenges of interest are:
 •	A. Market Dynamics: The jewelry market is influenced by trends, fashion, and changing consumer preferences, making pricing decisions complex.
 •	B. Competitive Pricing: Setting prices that are competitive with other jewelry retailers while offering unique and high-quality pieces.
 •	C. Cost Management: Balancing the cost of materials, craftsmanship, and overhead expenses with market pricing is crucial for profitability.
-Rationale for the Project
+### Rationale for the Project
 More rationale for jewelry price optimization can be seen as follows:
  
-	A. Profitability: Maximizing profits by balancing prices with costs and market demand
-	B. Customer Satisfaction: Offering competitive prices for high-quality jewelry enhances customer satisfaction.
-	C. Adaptability: The ability to adjust prices dynamically in response to market changes and trends.
-Aim of the Project
-The aims of the project are:
+- A. Profitability: Maximizing profits by balancing prices with costs and market demand
+- B. Customer Satisfaction: Offering competitive prices for high-quality jewelry enhances customer satisfaction.
+- C. Adaptability: The ability to adjust prices dynamically in response to market changes and trends.
+### Aim of the Project
+- The aims of the project are:
  
-•	A. Develop Price Optimization Models: Create machine learning models to predict optimal prices for different jewelry pieces based on market data and costs.
-•	B. Feature Selection (and Engineering): Identify (and engineer) relevant features that contribute to load capacity prediction accuracy.
-•	C. Ensure explainable predictions: Ensure that the developed price prediction models are explainable and can give insights to the business analysts as regards. This will help the business administration trust the model predictions even more.
+- A. Develop Price Optimization Models: Create machine learning models to predict optimal prices for different jewelry pieces based on market data and costs.
+- B. Feature Selection (and Engineering): Identify (and engineer) relevant features that contribute to load capacity prediction accuracy.
+- C. Ensure explainable predictions: Ensure that the developed price prediction models are explainable and can give insights to the business analysts as regards. This will help the business administration trust the model predictions even more.
 
 
 
 ## 2. Data understanding
 - Business Problem IV
 To be more specific, the specific challenges of interest are:
-•	A. Market Dynamics: The jewelry market is influenced by trends, fashion, and changing consumer preferences, making pricing decisions complex.
-•	B. Competitive Pricing: Setting prices that are competitive with other jewelry retailers while offering unique and high-quality pieces.
-•	C. Cost Management: Balancing the cost of materials, craftsmanship, and overhead expenses with market pricing is crucial for profitability.
-Rationale for the Project
+- A. Market Dynamics: The jewelry market is influenced by trends, fashion, and changing consumer preferences, making pricing decisions complex.
+- B. Competitive Pricing: Setting prices that are competitive with other jewelry retailers while offering unique and high-quality pieces.
+- C. Cost Management: Balancing the cost of materials, craftsmanship, and overhead expenses with market pricing is crucial for profitability.
+### Rationale for the Project
 More rationale for jewelry price optimization can be seen as follows:
  
-	A. Profitability: Maximizing profits by balancing prices with costs and market demand
-	B. Customer Satisfaction: Offering competitive prices for high-quality jewelry enhances customer satisfaction.
-	C. Adaptability: The ability to adjust prices dynamically in response to market changes and trends.
-Aim of the Project
+- A. Profitability: Maximizing profits by balancing prices with costs and market demand
+- B. Customer Satisfaction: Offering competitive prices for high-quality jewelry enhances customer satisfaction.
+- C. Adaptability: The ability to adjust prices dynamically in response to market changes and trends.
+### Aim of the Project
 The aims of the project are:
  
 •	A. Develop Price Optimization Models: Create machine learning models to predict optimal prices for different jewelry pieces based on market data and costs.
@@ -88,15 +88,15 @@ The aims of the project are:
 
 This involves the process of Exploratory Data Analysis (EDA)
 The required libraries and packages are imported first. The high-level steps to follow are:
-import the required libraries
-Load in the dataset
-Analyse and observe its properties
-Missing
-Outliers
-Inconsistent values
-Low categorical cardinality
-Data Imbalance
-Feature correlations
+- import the required libraries
+- Load in the dataset
+- Analyse and observe its properties
+- Missing
+- Outliers
+- Inconsistent values
+- Low categorical cardinality
+- Data Imbalance
+- Feature correlations
 Report on these properties and how they might affect the final solution
 
 
